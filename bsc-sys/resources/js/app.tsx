@@ -34,7 +34,10 @@ createInertiaApp({
                 theme={{
                     algorithm: isDark ? theme.darkAlgorithm : theme.defaultAlgorithm,
                     token: {
-                        colorPrimary: '#1677ff',
+                        colorPrimary: '#1C0E66',
+                        colorInfo: '#199178',
+                        colorSuccess: '#199178',
+                        colorWarning: '#E39F1E',
                         borderRadius: 6,
                         fontSize: 14,
                     },
@@ -56,7 +59,7 @@ createInertiaApp({
         );
     },
     progress: {
-        color: '#1677ff',
+        color: '#1C0E66',
     },
 });
 
